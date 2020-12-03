@@ -1,0 +1,6 @@
+version: '3.7'
+services:
+  php-8:
+    image: php:rc-fpm-buster
+    volumes:
+      - ./src:/var/www/html
